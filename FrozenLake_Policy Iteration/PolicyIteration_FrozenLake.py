@@ -7,7 +7,7 @@ def execute(env,policy,gamma=1.0, render=False):
     start = env.reset()
     totalReward=0
     stepIndex=0
-    episodeLength =100
+    episodeLength =1000
     for t in range(episodeLength):
         if render:
             env.render()
